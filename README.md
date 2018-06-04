@@ -35,7 +35,7 @@ The CTXExcel module has the following additional requirements which will be expl
 * [ImportExcel](#importexcel) PowerShell module installed
 
 ## Installation
-Details of the installation can be found in the [CTXExcel Deployment Plan](link), an overview of the install is given below.
+Details of the installation can be found in the [CTXExcel Deployment Plan](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20Deployment%20Plan%20-%20v2.2.docx), an overview of the install is given below.
 
 ### PowerShell v5
 For the CTXExcel module to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
