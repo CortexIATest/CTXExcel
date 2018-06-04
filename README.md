@@ -28,18 +28,32 @@ The CTXExcel module requires the following Cortex OCIs:
 The CTXExcel module does not require any files to be installed.
 
 ### Other
-The CTXExcel module requires PowerShell v5 to be installed on the application server.
+The CTXExcel module requires
+* [PowerShell v5](#powershell-v5) to be installed on the application server
+* [PSExcel](#psexcel) PowerShell module installed
+* [ImportExcel](#importexcel) PowerShell module installed
 
 ## Installation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique dictum enim, at venenatis nulla vehicula non. Pellentesque orci lectus, efficitur sed egestas eu, rutrum vitae purus. Vestibulum eu augue malesuada, aliquam nunc non, lacinia magna. Etiam pulvinar suscipit convallis. Etiam sed pellentesque ante. Donec vel libero quis augue tincidunt tristique. Proin rhoncus felis a dui aliquam, sit amet dictum quam cursus. Fusce nunc neque, maximus vitae dapibus et, ornare sit amet lorem. Ut euismod dignissim libero, vel maximus magna accumsan id. Maecenas vel quam in nibh euismod consectetur at in sapien.
+### PowerShell v5
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
 
-Ut ac dui nec arcu gravida imperdiet. Fusce vel malesuada libero, non venenatis diam. Fusce consectetur vulputate urna, et ultrices mauris mollis sit amet. Cras blandit eros ut magna ornare mattis. Aenean commodo, nunc nec hendrerit facilisis, velit dolor sollicitudin odio, commodo pretium est ante ut lacus. Fusce porta dolor mattis ex vehicula, at gravida risus pretium. Donec vulputate felis quis dui accumsan rutrum. Nullam eu malesuada nunc. Etiam tincidunt nec ligula vitae molestie. Mauris pulvinar metus massa, sed commodo neque pellentesque sit amet. Maecenas malesuada, velit laoreet eleifend facilisis, lectus dolor volutpat mauris, eget consequat est tellus et urna.
+```
+Powershell Code
+```
 
-Sed eu bibendum magna. Curabitur sollicitudin libero a tortor viverra faucibus. Praesent vel augue neque. Maecenas scelerisque mauris ut hendrerit vestibulum. Phasellus a felis nisi. Sed vel rutrum sapien. Proin vehicula nulla sed vestibulum venenatis. Vivamus lacinia id nisi at aliquam. Donec quis magna sodales, placerat nulla id, porta odio. Mauris elit sapien, feugiat vitae lacinia sed, lacinia vel purus. Praesent ut justo vel odio varius dapibus ac sit amet dui. Suspendisse potenti.
+### PSExcel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
 
-Proin erat risus, mattis ut diam ac, scelerisque scelerisque risus. Praesent malesuada scelerisque vehicula. Aliquam ultricies tincidunt dignissim. Nullam lobortis orci lorem, ut auctor quam molestie non. Fusce sodales finibus eros, in fringilla nunc elementum nec. Aenean sollicitudin ultrices metus at pellentesque. Nam in eros quis diam pretium volutpat. Duis mollis commodo justo in tristique. Ut at eleifend eros. Duis viverra lectus nec tellus finibus suscipit. Curabitur mauris turpis, dignissim non faucibus eu, congue et sapien. Maecenas turpis massa, vehicula non orci eu, pretium malesuada tortor. Quisque semper laoreet nisl, sit amet interdum sem commodo vel.
+```
+Powershell Code
+```
 
-Nam varius turpis id facilisis sodales. Duis pellentesque porttitor mattis. Donec consequat eros at ornare lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum non libero massa. In in ullamcorper dolor. Nullam posuere, leo nec aliquet tincidunt, dolor purus congue turpis, nec congue lectus tortor finibus nisi. Nullam finibus suscipit augue, sed vulputate nulla fermentum at. Quisque tincidunt sem odio, eget tempor odio lacinia ut. Aliquam ut erat in lacus fermentum euismod. Ut elit odio, cursus ut ipsum vel, fringilla fringilla eros. Nunc ut pulvinar ligula. Quisque aliquet augue id semper posuere. Donec vel maximus mi, quis ornare dui. Vivamus malesuada purus augue, id auctor massa consequat nec. Nulla vel dictum turpis.
+### ImportExcel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
+
+```
+Powershell Code
+```
 
 ## How to use
 A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20-%20LLD%20-%20v2.2.docx). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
