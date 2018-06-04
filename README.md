@@ -48,9 +48,14 @@ A detailed LLD has been provided with instructions on how to use the flows/subta
 While the CTXExcel subtasks contain function
 
 ## FAQs
-Such blank! Any questions you have, please contact the lead author
+Such blank! Any questions you have, please contact the author responsible for the functionality.
 
 ## The boring bits
 ### Versioning
+The CTXExcel module has the following versions, starting with the most recent:
+* CTXExcel v2.2 - Author: Aleo Yakas, email: testemail@testing.com
+* CTXExcel v2.1 - Author: Aleo Yakas, email: testemail@testing.com
+* CTXExcel v2.0 - Author: Aleo Yakas, email: testemail@testing.com
+* CTXExcel v1.0 - Author: Aleo Yakas, email: testemail@testing.com
 
 ### Licensing
