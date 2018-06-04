@@ -35,8 +35,10 @@ The CTXExcel module has the following additional requirements which will be expl
 * [ImportExcel](#importexcel) PowerShell module installed
 
 ## Installation
+Details of the installation can be found in the [CTXExcel Deployment Plan](link), an overview of the install is given below.
+
 ### PowerShell v5
-For the Excel Subtasks to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
+For the CTXExcel module to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
 
 `$PSVersionTable.PSVersion`
 
@@ -58,21 +60,27 @@ https://www.microsoft.com/en-us/download/details.aspx?id=50395&tduid=(162666df8f
 * Run the installer and follow the instructions provided [here](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 ### PSExcel
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
-
-```
-Powershell Code
-```
+To install the PSExcel PowerShell module, perform the following steps:
+* Run Powershell as an administrator 
+* Execute the following query:
+`Install-Module PSExcel`
+* A dialogue box may come up and ask if you trust this repositry, click 'Yes'
 
 ### ImportExcel
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
+To install the ImportExcel PowerShell module, perform the following steps:
+* Run Powershell as an administrator 
+* Execute the following query:
+`Install-Module ImportExcel`
+* A dialogue box may come up and ask if you trust this repositry, click 'Yes'
 
-```
-Powershell Code
-```
-
-### Import CTXExcel Subtasks
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
+### Import CTXExcel Module
+To import the CTXExcel Module to your Cortex server, perform the following steps:
+* Connect to Cortex Server
+* Download [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) on the Cortex application server
+* Navigate to Settings &rarr; Studio Import
+* Select 'Browse' and select the [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) downloaded
+* Import the module
+* Ensure the studio authorisations are set up for the relevant user groups
 
 ## How to use
 A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20-%20LLD%20-%20v2.2.docx). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
