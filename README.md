@@ -1,5 +1,5 @@
 # CTXExcel
-Cortex Subtasks which interact with Microsoft Excel.
+Cortex Subtasks which interact with Microsoft Excel. The main benefit of the CTXExcel module is it does not require Microsoft Excel installed on the Cortex application server.
 
 
 ## Table of Contents
@@ -38,7 +38,7 @@ The CTXExcel module has the following additional requirements which are explaine
 Details of the installation can be found in the [CTXExcel Deployment Plan](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20Deployment%20Plan%20-%20v2.2.docx), an overview of the install is given below.
 
 ### PowerShell v5
-For the CTXExcel module to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
+For the CTXExcel module to work, a requirement is that PowerShell version 5 is installed on the Cortex Server. This can be checked by opening PowerShell and running the following command:
 
 `$PSVersionTable.PSVersion`
 
@@ -53,25 +53,27 @@ Major  Minor  Build  Revision
 If the major version is 5 or greater, move on to [PSExcel](#psexcel). 
 
 If the major version is less than 5, perform the following steps:
-* On the Cortex server where Powershell version 5 will be installed, navigate to this [link](
+* On the Cortex server where PowerShell version 5 will be installed, navigate to this [link](
 https://www.microsoft.com/en-us/download/details.aspx?id=50395&tduid=(162666df8fd7d1ab0239724a9bec1eca)(266696)(1503186)(61836X1384699Xf82af593098584c381b4505006d7472d)())
 * Click the ‘Download’ button
-* Select and download the version required for the server where Powershell is being installed
+* Select and download the version required for the server where PowerShell is being installed
 * Run the installer and follow the instructions provided [here](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 ### PSExcel
 To install the PSExcel PowerShell module, perform the following steps:
-* Run Powershell as an administrator 
+* Run PowerShell as an administrator 
 * Execute the following query:
 
-`Install-Module PSExcel`
+```
+Install-Module PSExcel
+```
 
 * A dialogue box may come up and ask if you trust this repositry, if so click 'Yes'.
 
 
 ### ImportExcel
 To install the ImportExcel PowerShell module, perform the following steps:
-* Run Powershell as an administrator 
+* Run PowerShell as an administrator 
 * Execute the following query:
 
 ```
@@ -106,25 +108,18 @@ For any questions which are not answered here, please contact the author respons
 ## The boring bits
 ### Versioning
 The CTXExcel module has the following versions, starting with the most recent:
-* CTXExcel v2.2 - Author: Aleo Yakas, email: testemail@testing.com
-  *  Add Conditional Formatting
 
----
-* CTXExcel v2.1 - Author: Aleo Yakas, email: testemail@testing.com
-  *  Create Pivot Charts
-
----
-* CTXExcel v2.0 - Author: Aleo Yakas, email: testemail@testing.com
-  *  Create Pivot Tables
-
----
-* CTXExcel v1.0 - Author: Aleo Yakas, email: testemail@testing.com
-  *  Create Workbook
-  *  Create Worksheet
-  *  Insert Headers
-  *  Insert Rows
-  *  Set Cell
-  *  Set Cell Where
+Functionality | Version | Author
+------------ | ------------- | -----------
+Add Conditional Formatting | v2.2 | Aleo Yakas: testemail@testing.com
+Create Pivot Charts | v2.1 | Aleo Yakas: testemail@testing.com
+Create Pivot Tables | v2.0 | Aleo Yakas: testemail@testing.com
+Create Workbook | v1.0 | Aleo Yakas: testemail@testing.com
+Create Worksheet | v1.0 | Aleo Yakas: testemail@testing.com
+Insert Headers | v1.0 | Aleo Yakas: testemail@testing.com
+Insert Rows | v1.0 | Aleo Yakas: testemail@testing.com
+Set Cell | v1.0 | Aleo Yakas: testemail@testing.com
+Set Cell Where | v1.0 | Aleo Yakas: testemail@testing.com
 
 ### Licensing
 All functionality within this module is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). 
