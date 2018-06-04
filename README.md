@@ -25,10 +25,11 @@ The CTXExcel module requires the following Cortex OCIs:
 * PowerShell
 
 ### Files
-The CTXExcel module does not require any files to be installed.
+The CTXExcel module requires the following files:
+* [CTXExcel.studiopkg](#link)
 
 ### Other
-The CTXExcel module requires
+The CTXExcel module has the following additional requirements which will be explained later:
 * [PowerShell v5](#powershell-v5) to be installed on the application server
 * [PSExcel](#psexcel) PowerShell module installed
 * [ImportExcel](#importexcel) PowerShell module installed
@@ -54,6 +55,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lo
 ```
 Powershell Code
 ```
+
+### Import CTXExcel Subtasks
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
 
 ## How to use
 A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20-%20LLD%20-%20v2.2.docx). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
