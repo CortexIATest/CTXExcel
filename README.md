@@ -84,10 +84,10 @@ Install-Module ImportExcel
 To import the CTXExcel Module to your Cortex server, perform the following steps:
 * Connect to Cortex Server
 * Download [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) on the Cortex application server
-* Navigate to Settings &rarr; Studio Import
+* Navigate to 'Settings' &rarr; 'Studio Import'
 * Select 'Browse' and select the [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) downloaded
 * Import the module
-* Ensure the studio authorisations are set up for the relevant user groups
+* Ensure the 'Settings' &rarr; 'Studio Authorisations' are set up for the relevant user groups
 
 ## How to use
 A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20-%20LLD%20-%20v2.2.docx). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
