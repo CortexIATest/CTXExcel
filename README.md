@@ -68,12 +68,15 @@ To install the PSExcel PowerShell module, perform the following steps:
 
 * A dialogue box may come up and ask if you trust this repositry, if so click 'Yes'.
 
+
 ### ImportExcel
 To install the ImportExcel PowerShell module, perform the following steps:
 * Run Powershell as an administrator 
 * Execute the following query:
 
-`Install-Module ImportExcel`
+```
+Install-Module ImportExcel
+```
 
 * A dialogue box may come up and ask if you trust this repositry, if so click 'Yes'.
 
