@@ -109,7 +109,7 @@ For any questions which are not answered here, please contact the author respons
 ### Versioning
 The CTXExcel module has the following versions, starting with the most recent:
 
-Version | Release | Author | Email | Functionality | Notes
+Version | Release | Author | Author's Email | Functionality | Notes
 ------------ | ------------- | ----------- | ----------- | ----------- | -----------
 v2.2 | 05/01/2018 | Aleo Yakas | testemail@testing.com | Add Conditional Formatting | Created
 v2.1 | 21/11/2017 | Aleo Yakas | testemail@testing.com | Create Pivot Charts | Created
