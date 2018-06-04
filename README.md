@@ -1,5 +1,5 @@
 # CTXExcel
-Cortex Subtasks which interact with Microsoft Excel. The main benefit of the CTXExcel module is it does not require Microsoft Excel to be installed on the Cortex application server to create and modify the workbook.
+Cortex Subtasks which interact with Microsoft Excel.
 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ The CTXExcel module requires the following files:
 * [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg)
 
 ### Other
-The CTXExcel module has the following additional requirements which will be explained later:
+The CTXExcel module has the following additional requirements which are explained in detail in the [Installation section](#Installation):
 * [PowerShell v5](#powershell-v5) to be installed on the application server
 * [PSExcel](#psexcel) PowerShell module installed
 * [ImportExcel](#importexcel) PowerShell module installed
@@ -38,7 +38,7 @@ The CTXExcel module has the following additional requirements which will be expl
 Details of the installation can be found in the [CTXExcel Deployment Plan](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel%20Deployment%20Plan%20-%20v2.2.docx), an overview of the install is given below.
 
 ### PowerShell v5
-For the CTXExcel module to work, a requirement is that PowerShell version 5 is installed on the Cortex Server. This can be checked by opening PowerShell and running the following command:
+For the CTXExcel module to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
 
 `$PSVersionTable.PSVersion`
 
@@ -53,10 +53,10 @@ Major  Minor  Build  Revision
 If the major version is 5 or greater, move on to [PSExcel](#psexcel). 
 
 If the major version is less than 5, perform the following steps:
-* On the Cortex server where PowerShell version 5 will be installed, navigate to this [link](
+* On the Cortex server where Powershell version 5 will be installed, navigate to this [link](
 https://www.microsoft.com/en-us/download/details.aspx?id=50395&tduid=(162666df8fd7d1ab0239724a9bec1eca)(266696)(1503186)(61836X1384699Xf82af593098584c381b4505006d7472d)())
 * Click the ‘Download’ button
-* Select and download the version required for the server where PowerShell is being installed
+* Select and download the version required for the server where Powershell is being installed
 * Run the installer and follow the instructions provided [here](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 ### PSExcel
@@ -64,10 +64,10 @@ To install the PSExcel PowerShell module, perform the following steps:
 * Run Powershell as an administrator 
 * Execute the following query:
 
-```
-Install-Module PSExcel
-```
-* A dialogue box may come up and ask if you trust this repositry, click 'Yes'
+`Install-Module PSExcel`
+
+* A dialogue box may come up and ask if you trust this repositry, if so click 'Yes'.
+
 
 ### ImportExcel
 To install the ImportExcel PowerShell module, perform the following steps:
@@ -78,14 +78,14 @@ To install the ImportExcel PowerShell module, perform the following steps:
 Install-Module ImportExcel
 ```
 
-* A dialogue box may come up and ask if you trust this repositry, click 'Yes'
+* A dialogue box may come up and ask if you trust this repositry, if so click 'Yes'.
 
-### Import CTXExcel Module
+### Import CTXExcel Cortex Module
 To import the CTXExcel Module to your Cortex server, perform the following steps:
 * Connect to Cortex Server
 * Download [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) on the Cortex application server
-* Navigate to 'Settings' &rarr; 'Studio Import'
-* Select 'Browse' and select the [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) downloaded
+* Navigate to Settings &rarr; Studio Import
+* Select 'Browse' and select the [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg) which you downloaded
 * Import the module
 * Ensure the 'Settings' &rarr; 'Studio Authorisations' are set up for the relevant user groups
 
