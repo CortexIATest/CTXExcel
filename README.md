@@ -1,5 +1,5 @@
 # CTXExcel
-Cortex Subtasks which interact with Microsoft Excel
+Cortex Subtasks which interact with Microsoft Excel.
 
 
 ## Table of Contents
@@ -18,14 +18,14 @@ Cortex Subtasks which interact with Microsoft Excel
 
 ## Dependencies
 ### Cortex Version
-This version of the CTXExcel module was developed in Cortex v6.3.0, some functionality may not be available in earlier verions of Cortex.
+This version of the CTXExcel module was developed in Cortex v6.3.0. Some functionality may not be available in earlier verions of Cortex.
 
 ### OCIs
-The CTXExcel module requires the following OCIs:
+The CTXExcel module requires the following Cortex OCIs:
 * PowerShell
 
 ### Files
-The CTXExcel module does not require any files to install.
+The CTXExcel module does not require any files to be installed.
 
 ### Other
 The CTXExcel module requires PowerShell v5 to be installed on the application server.
@@ -42,13 +42,18 @@ Proin erat risus, mattis ut diam ac, scelerisque scelerisque risus. Praesent mal
 Nam varius turpis id facilisis sodales. Duis pellentesque porttitor mattis. Donec consequat eros at ornare lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum non libero massa. In in ullamcorper dolor. Nullam posuere, leo nec aliquet tincidunt, dolor purus congue turpis, nec congue lectus tortor finibus nisi. Nullam finibus suscipit augue, sed vulputate nulla fermentum at. Quisque tincidunt sem odio, eget tempor odio lacinia ut. Aliquam ut erat in lacus fermentum euismod. Ut elit odio, cursus ut ipsum vel, fringilla fringilla eros. Nunc ut pulvinar ligula. Quisque aliquet augue id semper posuere. Donec vel maximus mi, quis ornare dui. Vivamus malesuada purus augue, id auctor massa consequat nec. Nulla vel dictum turpis.
 
 ## How to use
-A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](LLD-link). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace. 
+A detailed Low-Level Design (LLD) document has been provided with instructions on how to use the flows/subtasks, available [here](LLD-link). Configuration of subtask inputs and outputs are detailed in the notes on the subtask workspaces. 
 
 ## How you can contribute
-While the CTXExcel subtasks contains a plethora of functionality already, we are always looking to update it. If there is any functionality desired, please get in touch.
+While the CTXExcel subtasks contain a plethora of functionality already, we are always looking to add more. If there is any functionality you desire, please get in touch.
+
+Unfortunately, we cannot offer pull requests at this time. 
 
 ## FAQs
-Such blank! Any questions you have, please contact the author responsible for the functionality.
+For any questions which are not answered here, please contact the author responsible for the functionality you are using.
+
+* How is this module so good? 
+   * It was made by the Waterboy himself, that's how. 
 
 ## The boring bits
 ### Versioning
@@ -74,3 +79,4 @@ The CTXExcel module has the following versions, starting with the most recent:
   *  Set Cell Where
 
 ### Licensing
+All functionality within this module is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). 
