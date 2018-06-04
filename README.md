@@ -53,15 +53,19 @@ Such blank! Any questions you have, please contact the author responsible for th
 ## The boring bits
 ### Versioning
 The CTXExcel module has the following versions, starting with the most recent:
+
 * CTXExcel v2.2 - Author: Aleo Yakas, email: testemail@testing.com
 Functionality:
   *  Add Conditional Formatting
+
 * CTXExcel v2.1 - Author: Aleo Yakas, email: testemail@testing.com
 Functionality:
   *  Create Pivot Charts
+
 * CTXExcel v2.0 - Author: Aleo Yakas, email: testemail@testing.com
 Functionality:
   *  Create Pivot Tables
+
 * CTXExcel v1.0 - Author: Aleo Yakas, email: testemail@testing.com
 Functionality:
   *  Create Workbook
