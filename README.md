@@ -36,11 +36,26 @@ The CTXExcel module has the following additional requirements which will be expl
 
 ## Installation
 ### PowerShell v5
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
+For the Excel Subtasks to work, a requirement is that Powershell version 5 is installed on the Cortex Server. This can be checked by opening Powershell and running the following command:
+
+`$PSVersionTable.PSVersion`
+
+A similar output should be displayed as below:
 
 ```
-Powershell Code
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      16299  64
 ```
+
+If the major version is 5 or greater, move on to [PSExcel](#psexcel). 
+
+If the major version is less than 5, perform the following steps:
+* On the Cortex server where Powershell version 5 will be installed, navigate to this [link](
+https://www.microsoft.com/en-us/download/details.aspx?id=50395&tduid=(162666df8fd7d1ab0239724a9bec1eca)(266696)(1503186)(61836X1384699Xf82af593098584c381b4505006d7472d)())
+* Click the ‘Download’ button
+* Select and download the version required for the server where Powershell is being installed
+* Run the installer and follow the instructions provided [here](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 ### PSExcel
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie lobortis urna, posuere elementum enim molestie a. Sed dignissim, turpis vitae ullamcorper imperdiet, eros purus volutpat elit, non maximus ex turpis vel metus. Sed eget dui tellus. Pellentesque vel nisi neque. Cras laoreet malesuada ornare. Pellentesque rutrum blandit libero. Nam in lacus placerat, accumsan nibh a, viverra lectus. Cras tincidunt porta tristique. Vestibulum feugiat neque id finibus accumsan. Ut at erat tempus, aliquam dui interdum, facilisis neque. Nulla facilisi.
