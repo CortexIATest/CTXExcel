@@ -26,7 +26,7 @@ The CTXExcel module requires the following Cortex OCIs:
 
 ### Files
 The CTXExcel module requires the following files:
-* [CTXExcel.studiopkg](#link)
+* [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/blob/master/CTXExcel-V2.2.studiopkg)
 
 ### Other
 The CTXExcel module has the following additional requirements which will be explained later:
