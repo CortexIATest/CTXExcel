@@ -4,17 +4,17 @@ Cortex Subtasks which interact with Microsoft Excel
 
 ## Table of Contents
 1) [Dependencies](#dependencies)
-    * Cortex Version
-    * OCIs
-    * Files
-    * Other
+    * [Cortex Version](#cortex-version)
+    * [OCIs](#ocis)
+    * [Files](#files)
+    * [Other](#other)
 1) [Installation](#installation)
 1) [How to use](#how-to-use)
 1) [How you can contribute](#how-you-can-contribute)
 1) [FAQs](#faqs)
 1) [The boring bits](#the-boring-bits)
-    * Versioning
-    * Licensing
+    * [Versioning](#versioning)
+    * [Licensing](#licensing)
 
 ## Dependencies
 ### Cortex Version
