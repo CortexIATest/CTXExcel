@@ -109,17 +109,17 @@ For any questions which are not answered here, please contact the author respons
 ### Versioning
 The CTXExcel module has the following versions, starting with the most recent:
 
-Functionality | Version | Author
------------- | ------------- | -----------
-Add Conditional Formatting | v2.2 | Aleo Yakas: testemail@testing.com
-Create Pivot Charts | v2.1 | Aleo Yakas: testemail@testing.com
-Create Pivot Tables | v2.0 | Aleo Yakas: testemail@testing.com
-Create Workbook | v1.0 | Aleo Yakas: testemail@testing.com
-Create Worksheet | v1.0 | Aleo Yakas: testemail@testing.com
-Insert Headers | v1.0 | Aleo Yakas: testemail@testing.com
-Insert Rows | v1.0 | Aleo Yakas: testemail@testing.com
-Set Cell | v1.0 | Aleo Yakas: testemail@testing.com
-Set Cell Where | v1.0 | Aleo Yakas: testemail@testing.com
+Functionality | Version | Release | Author | Email
+------------ | ------------- | ----------- | ----------- | -----------
+Add Conditional Formatting | v2.2 | 05/01/2018 |Aleo Yakas | testemail@testing.com
+Create Pivot Charts | v2.1 | 21/11/2017 | Aleo Yakas | testemail@testing.com
+Create Pivot Tables | v2.0 | 16/11/2017 | Aleo Yakas | testemail@testing.com
+Create Workbook | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
+Create Worksheet | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
+Insert Headers | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
+Insert Rows | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
+Set Cell | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
+Set Cell Where | v1.0 | 12/05/2017 | Aleo Yakas | testemail@testing.com
 
 ### Licensing
 All functionality within this module is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). 
