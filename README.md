@@ -51,7 +51,9 @@ Details of the installation can be found in the [CTXExcel Deployment Plan](https
 ### PowerShell v5
 For the CTXExcel module to work, a requirement is that PowerShell version 5 is installed on the Cortex Server. This can be checked by opening PowerShell and running the following command:
 
-`$PSVersionTable.PSVersion`
+```
+$PSVersionTable.PSVersion
+```
 
 A similar output should be displayed as below:
 
