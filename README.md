@@ -1,5 +1,16 @@
 # CTXExcel
-Cortex Subtasks which interact with Microsoft Excel. The main benefit of the CTXExcel module is it does not require Microsoft Excel installed on the Cortex application server.
+Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
+
+The module allows users to perform the following functionality:
+* Add Conditional Formatting
+* Create Pivot Charts
+* Create Pivot Tables
+* Create Workbook 
+* Create Worksheet 
+* Insert Headers
+* Insert Rows 
+* Set Cell
+* Set Cell Where
 
 
 ## Table of Contents
