@@ -75,7 +75,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=50395&tduid=(162666df8f
 ### PSExcel
 To install the PSExcel PowerShell module, perform the following steps:
 * Run PowerShell as an administrator 
-* Execute the following query:
+* Run the following script:
 
 ```
 Install-Module PSExcel
@@ -87,7 +87,7 @@ Install-Module PSExcel
 ### ImportExcel
 To install the ImportExcel PowerShell module, perform the following steps:
 * Run PowerShell as an administrator 
-* Execute the following query:
+* Execute the following script:
 
 ```
 Install-Module ImportExcel
@@ -115,8 +115,11 @@ Unfortunately, we cannot offer pull requests at this time.
 ## FAQs
 For any questions which are not answered here, please contact the author responsible for the functionality you are using.
 
-* How is this module so good? 
-   * It was made by the Waterboy himself, that's how. 
+* I installed one of the PowerShell modules previously, what should I do? 
+   * If you have installed an older version of a PowerShell module previously, you will need to append the `-Force` parameter to the end of the script to upgrade the module:
+   ```
+   Install-Module PSExcel -Force
+   ```
 
 ## The boring bits
 ### Versioning
