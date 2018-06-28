@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Test Change CTXExcel
-=======
 # 123 CTXExcel
->>>>>>> 4f43ef8fb7cb7535edea96ac530cc0a43e784b49
 Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
 
 The module allows users to perform the following functionality:
