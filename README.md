@@ -1,4 +1,4 @@
-# 123 CTXExcel
+# CTXExcel
 Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
 
 The module allows users to perform the following functionality:
