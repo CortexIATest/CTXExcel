@@ -1,3 +1,7 @@
+Reference-style: 
+![alt text][logo]
+
+[logo] : https://github.com/CortexIATest/CTXExcel/blob/master/Images/Cortex-350-120.png 
 # CTXExcel
 Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
 
