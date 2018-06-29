@@ -1,4 +1,4 @@
-![](https://www.cortex.co.uk/)
+[![](https://github.com/CortexIATest/CTXExcel/blob/master/Images/Cortex-350-120.png)](https://www.cortex.co.uk/)
 # CTXExcel
 Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
 
