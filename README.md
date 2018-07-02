@@ -1,7 +1,5 @@
 <a href="https://www.cortex.co.uk/" target="_blank"><img src="https://github.com/CortexIATest/CTXImages/blob/master/Cortex-350-120.png" alt="Welcome to Cortex!" width="350" height="120" border="0"></a>
 
-<img src="https://www.cortex.co.uk/" alt="Welcome to Cortex!" width="350" height="120" border="0">
-
 # CTXExcel
 Cortex Subtasks which interact with Microsoft Excel without requiring Microsoft Excel to be installed on the Cortex application server.
 
