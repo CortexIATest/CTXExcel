@@ -99,8 +99,8 @@ Install-Module ImportExcel
 
 ### Import CTXExcel Cortex Module
 To import the CTXExcel Module to your Cortex server, perform the following steps:
-* Connect to Cortex Server
-</br>* Download [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/releases/download/untagged-735f460df6f7d65c9d19/Cortex.Studio.Package.-.V2.2.studiopkg) on the Cortex application server
+* Connect to Cortex Server</br>
+* Download [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/releases/download/untagged-735f460df6f7d65c9d19/Cortex.Studio.Package.-.V2.2.studiopkg) on the Cortex application server
 </br>* Navigate to 'Settings' &rarr; 'Studio Import'
 </br>[![alt text](https://github.com/CortexIATest/CTXImages/blob/master/Settings.PNG)](#)
 </br>* Select 'Browse' and select the [CTXExcel.studiopkg](https://github.com/CortexIATest/CTXExcel/releases/download/untagged-735f460df6f7d65c9d19/Cortex.Studio.Package.-.V2.2.studiopkg) which you downloaded
